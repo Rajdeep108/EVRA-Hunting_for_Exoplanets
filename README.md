@@ -1,7 +1,14 @@
 # EVRA — Exoplanet Validation & Research with AI 🪐
 
-**EVRA** (Exoplanet Validation & Research with AI) is a mission-aware **Mixture-of-Experts (MoE)** app for classifying exoplanet records using NASA’s **Kepler (KOI)**, **K2**, and **TESS** datasets.  
+**EVRA** (Exoplanet Validation & Research with AI) is an AI powered, mission-aware **Mixture-of-Experts (MoE)** app for classifying exoplanet records using NASA’s **Kepler (KOI)**, **K2**, and **TESS** datasets.  
 Built using Python Coding language and Streamlit library for a clean User-Interface ; you can **upload data → get predictions → evaluate metrics → retrain models → export** — with each expert preserving its original mission schema and feature engineering.
+
+### Detection Method: Transit Photometry (Transit Method)
+EVRA focuses on the **transit method** of exoplanet detection — identifying **drops in a star’s brightness** when a planet passes in front of it.  
+The app **does not process raw light curves directly**; instead, it uses **tabular mission catalogs** and features **derived from transit analysis**, such as:
+- **Transit depth**, **transit duration**, **orbital period**
+- **Planet radius**, **stellar radius**, **stellar temperature/mass**
+- Engineered ratios (e.g., **duration/period**, **planet/star radius**) and **uncertainty features**
 
 ---
 
