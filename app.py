@@ -50,7 +50,7 @@ from base64 import b64encode
 
 # -------------------- Theming & Layout --------------------
 st.set_page_config(
-    page_title="EVRA • NASA Exoplanet Classifier",
+    page_title="EVRA • Exoplanet Detection",
     page_icon="🪐",
     layout="wide",
 )
