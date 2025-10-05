@@ -1,0 +1,7 @@
+{
+  "models": {
+    "kepler": "models/koi_lightgbm.pkl",
+    "k2": "models/k2_lightgbm.pkl",
+    "tess": "models/tess_lightgbm.pkl"
+  }
+}
